@@ -137,8 +137,8 @@ end
 _redis = load_redis()  
 --------------------------------------------------------------------------------------------------------------
 print([[
-> CH › @KNTAAKE
-~> DEVELOPER1 › @Vv59vV
+> CH › @m_eramere
+~> DEVELOPER1 › @sbb_b
 ]])
 sudos = dofile("./Info.lua") 
 SUDO = tonumber(sudos.SUDO)
@@ -164,7 +164,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,630195671,283317818}   
+sudo_users = {SUDO,1472014313,942979469}   
 function SudoBot(msg)  
 local KNTAAKE = false  
 for k,v in pairs(sudo_users) do  
@@ -223,9 +223,9 @@ return false
 end 
 end
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(630195671) then  
+if tonumber(user_id) == tonumber(1472014313) then  
 var = true  
-elseif tonumber(user_id) == tonumber(630195671) then
+elseif tonumber(user_id) == tonumber(1472014313) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
