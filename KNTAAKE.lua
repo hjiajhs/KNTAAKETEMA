@@ -251,10 +251,10 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(630195671) then  
+if tonumber(user_id) == tonumber(1472014313) then  
 var = 'مطور السورس'
-elseif tonumber(user_id) == tonumber(630195671) then
-var = 'مبرمج سانهوك'
+elseif tonumber(user_id) == tonumber(942979469) then
+var = 'مبرمج ميرمار'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
 elseif tonumber(user_id) == tonumber(bot_id) then  
@@ -2273,17 +2273,17 @@ end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' then
 Text = [[
 ≪°•°•°•°•°•°∞°•°•°•°•°•°≫
- ⌔┆ ↬KNTAAKE TEAM
+ ⌔┆ ↬MERMAR TEAM
  ≪°•°•°•°•°•°∞°•°•°•°•°•°≫
- ⌔┆ ↬[Channel KNTAAKE](t.me/KNTAAKE) 
+ ⌔┆ ↬[Channel MERMAR](t.me/m_eramere) 
 ≪°•°•°•°•°•°∞°•°•°•°•°•°≫
- ⌔┆ ↬[Information](t.me/KNTAAKE)
+ ⌔┆ ↬[Information](t.me/m_eramere)
 ≪°•°•°•°•°•°∞°•°•°•°•°•°≫
- ⌔┆ ↬[DEVELOPER1](t.me/Vv59vV)
+ ⌔┆ ↬[DEVELOPER1](t.me/SBB_B)
 ≪°•°•°•°•°•°∞°•°•°•°•°•°≫
  ⌔┆ ↬[The way his inauguration](https://t.me/KNTAAKE/365)
 ≪°•°•°•°•°•°∞°•°•°•°•°•°≫
- ⌔┆ ↬[To talk to us](t.me/Vv59vV)
+ ⌔┆ ↬[To talk to us](t.me/SBB_B)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -3374,8 +3374,8 @@ if res == 200 then
 local Get_info, res = pcall(JSON.decode,Get_Files);
 vardump(res.plugins_)
 if Get_info then
-local TextS = "\n ⌔┆ اهلا بك في متجر ملفات سانهوك\n ⌔┆ ملفات السورس ↓\n≪°•°•°•°•°•°∞°•°•°•°•°•°≫\n\n"
-local TextE = "\n≪°•°•°•°•°•°∞°•°•°•°•°•°≫\n ⌔┆ علامة تعني { ✓ } ملف مفعل\n ⌔┆ علامة تعني { ✘ } ملف معطل\n ⌔┆ قناة سورس سانهوك ↓\n".." ⌔┆ [اضغط هنا لدخول](t.me/KNTAAKE) \n"
+local TextS = "\n ⌔┆ اهلا بك في متجر ملفات ميرمار\n ⌔┆ ملفات السورس ↓\n≪°•°•°•°•°•°∞°•°•°•°•°•°≫\n\n"
+local TextE = "\n≪°•°•°•°•°•°∞°•°•°•°•°•°≫\n ⌔┆ علامة تعني { ✓ } ملف مفعل\n ⌔┆ علامة تعني { ✘ } ملف معطل\n ⌔┆ قناة سورس ميرمار↓\n".." ⌔┆ [اضغط هنا لدخول](t.me/m_eramere) \n"
 local NumFile = 0
 for name,Info in pairs(res.plugins_) do
 local Check_File_is_Found = io.open("File_Bot/"..name,"r")
@@ -3413,7 +3413,7 @@ os.execute("rm -fr File_Bot/"..file)
 send(msg.chat_id_, msg.id_,t) 
 dofile('KNTAAKE.lua')  
 else
-send(msg.chat_id_, msg.id_," ⌔┆ عذرا الملف لايدعم سورس سانهوك \n") 
+send(msg.chat_id_, msg.id_," ⌔┆ عذرا الملف لايدعم سورس ميرمار\n") 
 end
 return false
 end
