@@ -846,7 +846,7 @@ local start = database:get(bot_id.."Start:Bot")
 if start then 
 SourceKNTAAKEr = start
 else
-SourceKNTAAKEr = '⌔┆ اهلا عزيزي\n ⌔┆ انا بوت اسمي '..Namebot..'\n ⌔┆ اختصاصي حمايه الكروبات\n ⌔┆ من تكرار والسبام والتوجيه والخ…\n ⌔┆ لتفعيلي اتبع الاخطوات…↓\n ⌔┆ اضفني الي مجموعتك وقم بترقيتي ادمن واكتب كلمه { تفعيل }  ويستطيع »{ منشئ او المشرفين } بتفعيل فقط\n[ ⌔┆ [قناة سورس البوت](http://t.me/KNTAAKE)'
+SourceKNTAAKEr = '⌔┆ اهلا عزيزي\n ⌔┆ انا بوت اسمي '..Namebot..'\n ⌔┆ اختصاصي حمايه الكروبات\n ⌔┆ من تكرار والسبام والتوجيه والخ…\n ⌔┆ لتفعيلي اتبع الاخطوات…↓\n ⌔┆ اضفني الي مجموعتك وقم بترقيتي ادمن واكتب كلمه { تفعيل }  ويستطيع »{ منشئ او المشرفين } بتفعيل فقط\n[ ⌔┆ [قناة سورس البوت](http://t.me/sbb_b)'
 end 
 send(msg.chat_id_, msg.id_, SourceKNTAAKEr) 
 end
@@ -2314,15 +2314,7 @@ end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' then
 Text = [[
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ 
-⧉️↬༒ E𝐑𝐀𝐍𝐆𝐄𝐋 ༒ 𝐓𝐄𝐀𝐌
- ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⧉️↬[𝒄𝒉𝒂𝒏𝒏𝒆𝒍 ༒ E𝐑𝐀𝐍𝐆𝐄𝐋 ༒](https://t.me/Erange_l)
-
-⧉️↬[𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑¹](https://t.me/sbb_b)
-
-⧉️↬[𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑²](https://t.me/Erange_l)
-
-⧉️↬[𝐓𝐨 𝐭𝐚𝐥𝐤 𝐭𝐨 𝐮𝐬](https://t.me/sbb_b)
+⧉️↬[مطورس السورس جاسم](https://t.me/sbb_b)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -8489,6 +8481,10 @@ if text == ""..(database:get(bot_id..'Name:Bot') or 'كنتاكي').."" then
 Namebot = (database:get(bot_id..'Name:Bot') or 'كنتاكي')
 local KNTAAKE_Msg = {
 'عمغي 🥺💕.',
+'يبعد حيلي 🥺💕.',
+'يمك ححب.',
+'مو بوت بشر 🥺💕.',
+'يمك مو بوت مطوري جاسم 🖤🐢.',
 'هاا شتريد كافي ☹️.',
 'مشايف بوت شني 😂.',
 'كول حبيبي ؟ اني '..Namebot..'',
@@ -9575,15 +9571,10 @@ local List = {
 𓄼🇮🇶 𝑴𝒔𝒈𝒔 :#msgs
 ]],
 [[
-❤️|-وف اتفاعل يحلو😍🙈
-👨‍👧|- ☆يوزرك #username 🎫
-💌|- ☆رسائلك #msgs 💌
-🎫|- ☆ايديك #id   🥇
-??|- ☆موقعك #stast 🌐 
-🤸‍♂|- ☆جفصاتك #edit  🌬
-🥉|- ☆تفاعلك #auto 🚀
-🏆|- ☆مجوهراتك #game 🕹
-🌏|- ☆اشترك يحلو🌐《 قناة الكروب》
+- 𝒖𝒔𝒆𝒓𝒏𝒂𝒎𝒆 ➢ #username .💗
+ - 𝒎𝒔𝒈𝒔 ➢ #msgs .💗
+ - 𝒓𝒂𝒏𝒌 ➢ #stast .💗
+- 𝒊𝒅 𝒔𝒕𝒂 ➢ #id .  💗
 ]],
 [[
 ➞: 𝒔𝒕𝒂𓂅 #stast 𓍯➸💞.
@@ -10295,7 +10286,7 @@ end
 if text == 'رابط الحذف' or text == 'رابط حذف' then
 t =[[
 رابط الحذف في جميع مواقع التواصل ⌔
-فكر قبل لا تتسرع وتروح
+احذف واخلص قبل انحذف تعال لجاسم @Sbb_b
 ٴ『─────·𖤐·─────』ٴ
  ⌔ رابط حذف  [Telegram](https://my.telegram.org/auth?to=delete) ܁
  ⌔ رابط حذف [instagram](https://www.instagram.com/accounts/login/?next=/accounts/remove/request/permanent/) ܁
