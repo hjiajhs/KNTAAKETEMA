@@ -46,6 +46,46 @@ TextReply = 'دعوفه يزحف شعليك بي'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
+if text == 'ضايج' then
+TextReply = 'منو وياك ؟؟؟'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'ا' then
+TextReply = '@SZXZS شوف قناتي يمكن حلوا 🐢🖤'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'بوت' then
+TextReply = 'SZXZS@ شوف قناتي يمكن حلوا 🐢 '
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'وخر' then
+TextReply = 'وخرت يلا دعبل'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'ايدي' then
+TextReply = 'SZXZS شوف قناتي يمكن حلوا 🐢🌚 '
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'مطي' then
+TextReply = 'ليش تصيح نفسك ،'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'وينك' then
+TextReply = 'بمك حبيي'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'رفع بكلبي' then
+TextReply = 'تم رفعة بكلبك 🖤🐢'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
 if text == 'كلخرا' then
 TextReply = 'مااكلك حبيبي'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
@@ -278,6 +318,11 @@ return false
 end
 if text == 'احبج' then
 TextReply = 'جذاب يضحك عليج'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'البوت شبي' then
+TextReply = 'مابي ش حب '
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
